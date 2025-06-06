@@ -103,6 +103,13 @@
   position: relative;
 }
 
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+  box-shadow: 0 8px 25px rgba(249, 105, 0, 0.3);
+}
+
 .drone-animation {
   position: relative;
   animation: float 6s ease-in-out infinite;

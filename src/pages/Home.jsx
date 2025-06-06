@@ -76,17 +76,11 @@ const Home = () => {
               </div>
             </div>
             <div className="hero-visual">
-              <div className="drone-animation">
-                <div className="drone">
-                  <div className="drone-body">
-                    <span className="rescue-icon">🚑</span>
-                  </div>
-                  <div className="drone-propeller propeller-1"></div>
-                  <div className="drone-propeller propeller-2"></div>
-                  <div className="drone-propeller propeller-3"></div>
-                  <div className="drone-propeller propeller-4"></div>
-                </div>
-              </div>
+              <img 
+                src="/images/skyaid-drone.png" 
+                alt="SkyAid Drone em Operação" 
+                className="hero-image"
+              />
             </div>
           </div>
         </div>
