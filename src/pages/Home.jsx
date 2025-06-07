@@ -97,16 +97,16 @@ const Home = () => {
             <p>Assista ao nosso vídeo e descubra como o SkyAid transforma tecnologia em ação de resgate.</p>
           </div>
           <div className="video-container">
-            <div className="video-placeholder">
-              <div className="play-button" onClick={() => alert('Vídeo seria reproduzido aqui!')}>
-                <span>▶️</span>
-              </div>
-              <div className="video-info">
-                <h3>SkyAid - Pitch Oficial</h3>
-                <p>Duração: 3:45</p>
-              </div>
-            </div>
-          </div>
+            <iframe
+              width="100%"
+              height="450"
+              src="https://www.youtube.com/embed/Vr7ZU63OyMs"
+              title="SkyAid - Pitch Oficial"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+           </div>
         </div>
       </section>
 
